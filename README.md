@@ -1,8 +1,13 @@
-# RobustSentEmbed
+# RobustSentEmbed: Robust Sentence Embeddings Using Adversarial Self-Supervised Contrastive Learning
+
 A self-supervised sentence embedding framework that enhances both generalization and robustness benchmarks
 
+This paper is accepted for presentation at the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL Findings) 2024. 
 
-#### Train the RobustSentEmbed embeddings to generate robust text represnetation
+You can read the paper here:  [https://arxiv.org/abs/2403.11082](https://arxiv.org/abs/2403.11082)
+
+
+#### Train the RobustSentEmbed embeddings to generate robust text representation
 ```bash
 LR=7e-6
 MASK=0.30
