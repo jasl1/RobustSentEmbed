@@ -119,5 +119,3 @@ attacker = textattack.Attacker(attack, eval_dataset, attack_args)
 attacker.attack_dataset()
 ```
 
-In this example, the application prompts the user to enter a context and a question. It then constructs a prompt that includes the user input, along with a few examples of question-answering tasks. The prompt is then sent to the GPT-3 model, which generates an answer based on the provided context and question.
-These examples demonstrate various prompt engineering techniques and how they can be applied to build useful LLM applications. Prompt engineering is an iterative process, and you may need to experiment with different prompts and techniques to achieve the desired results for your specific use case.
